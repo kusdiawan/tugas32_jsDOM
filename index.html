@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+        <meta charset="utf-8" />
+        <title>Belajar Javascript - NIOMIC</title>
+ </head>
+ <body>
+        <input type="text" id="nama_depan" value="Nama Depan" /> <br />
+        <input type="text" id="nama_belakang" value="Nama Belakang" /> <br />
+        <input type="text" id="hobi" value="Hobi" /> <br /><br />
+
+        <button type="button" name="button" onclick="panggilEksternal()">Jalan</button>
+ 
+<!-- penulisan java script secara internal -->
+	<script type="text/javascript">
+function panggilEksternal(){
+  	var nama_depan = document.getElementById('nama_depan')
+  	var nama_belakang = document.getElementById('nama_belakang')
+  	var hobi = document.getElementById('hobi')
+  	
+  	console.log(nama_depan)
+  	console.log(nama_belakang)
+  	console.log(hobi)
+}
+   </script>
+
+
+
+ </body>
+</html>
